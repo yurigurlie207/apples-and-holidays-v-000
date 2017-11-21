@@ -96,14 +96,15 @@ def all_supplies_in_holidays(holiday_hash)
       holidayStringArray.each do |word| word.capitalize! end
       holidayString = holidayStringArray.join(' ')
 
-
+      finalString = [] 
       itemArray.each do |word|
         itemArray2 = word.to_s.split(' ')
         itemArray2.each do |word2| word2.capitalize! end
-        itemArrayString = itemArray2.join(' ')
-        supplyString = word.join(', ')
+        itemArrayString = 
+        finalString << itemArray2.join(' ')
       end
-      
+
+supplyString = word.join(', ')
     puts "  #{holidayString}: #{supplyString}"
 
     end
