@@ -97,7 +97,8 @@ def all_supplies_in_holidays(holiday_hash)
       holidayString = holidayStringArray.join(' ')
 
       supplyString = itemArray.join(', ')
-    puts "  #{holidayString}: #{supplyString}"
+
+      puts "  #{holidayString}: #{supplyString}"
 
     end
 
