@@ -103,7 +103,7 @@ def all_supplies_in_holidays(holiday_hash)
         finalString << itemArray2.join(' ')
       end
 
-supplyString = word.join(', ')
+    supplyString = finalString.join(', ')
     puts "  #{holidayString}: #{supplyString}"
 
     end
