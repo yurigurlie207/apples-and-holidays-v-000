@@ -98,8 +98,6 @@ def all_supplies_in_holidays(holiday_hash)
 
       finalString = []
       itemArray.each do |word|
-        itemArray2 = word.to_s.split(' ')
-        itemArray2.each do |word2| word2.capitalize! end
         finalString << itemArray2.join(' ')
       end
 
